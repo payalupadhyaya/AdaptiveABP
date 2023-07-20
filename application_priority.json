@@ -1,0 +1,82 @@
+{
+	"app-id" : {
+		"4" : {
+			"name" : "unknown",
+			"category" : "standard",
+			"action" : "permit",
+			"action_value" : "none"
+		},
+		"244" : {
+			"name" : "facebook",
+			"category" : "social-networking",
+			"action" : "deny",
+			"action_value" : "none"
+		},
+		"51" : {
+			"name" : "gmail",
+			"category" : "webmail",
+			"action" : "dscp",
+			"action_value" : "af12"
+		},		
+		"503" : {
+			"name" : "twitter",
+			"category" : "social-networking",
+			"action" : "permit",
+			"action_value" : "CS1"
+		},		
+		"1478" : {
+			"name" : "outlook",
+			"category" : "web",
+			"action" : "permit",
+			"action_value" : "CS4"
+		},		
+		"175" : {
+			"name" : "rtp",
+			"category" : "social-networking",
+			"action" : "deny",
+			"action_value" : "CS1"
+		},
+		"3374" : {
+			"name" : "ms-teams",
+			"category" : "instant-messaging",
+			"action" : "deny",
+			"action_value" : "NA"
+		},
+		"205" : {
+			"name" : "tcp",
+			"category" : "network-service",
+			"action" : "local-priority",
+			"action_value" : "3"
+		},
+		"2207" : {
+			"name" : "amazon-adsystem",
+			"category" : "web",
+			"action" : "deny",
+			"action_value" : "NA"
+		},
+		"305" : {
+			"name" : "linkedin",
+			"category" : "social-networking",
+			"action" : "permit",
+			"action_value" : "NA"
+		},
+		"562" : {
+			"name" : "windows-update",
+			"category" : "web",
+			"action" : "dscp",
+			"action_value" : "AF12"
+		},
+		"2280" : {
+			"name" : "adobe",
+			"category" : "web",
+			"action" : "local-priority",
+			"action_value" : "7"
+		},
+		"2210" : {
+			"name" : "snapchat",
+			"category" : "web",
+			"action" : "permit",
+			"action_value" : "NA"
+		}
+	}
+}
